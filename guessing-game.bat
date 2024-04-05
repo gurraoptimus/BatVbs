@@ -1,5 +1,5 @@
 @echo off
-color 8c
+color 8f
 title Guessing Game
 set /a guessnum=0
 set /a answer=%RANDOM%
