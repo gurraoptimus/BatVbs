@@ -33,7 +33,7 @@ if %input%==2 goto Exit if NOT goto Start 2
 exit
 :B
 cls
-echo Your 5 passwords are %random%, %random%, %random%, %random%, %random%.
+echo Your 5 passwords are %random%,%random%,%random%,%random%,%random%.
 echo Now choose what you want to do.
 echo 1) Go back to the beginning
 echo 2) Exit
