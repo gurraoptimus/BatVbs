@@ -1,4 +1,5 @@
 @echo off
+color 8f
 :Start2
 cls
 goto Start
