@@ -32,3 +32,5 @@ if %input%==2 goto Exit if NOT goto Start 2
 :Exit
 exit
 :B
+echo Your 5 passwords are %random%, %random%, %random%, %random%, %random%.
+echo
