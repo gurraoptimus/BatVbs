@@ -15,5 +15,6 @@ echo 3) 10 Random Passwords
 echo Input your choice:
 set input=
 set /p input= choice:
+if %input%==
 pause
 exit
