@@ -22,6 +22,7 @@ if %input%==3 goto C if NOT goto Start2
 cls
 echo Your password is %random%
 echo Now choose what  you want to do.
-echo 1)
+echo 1) Go back to the beginning
+echo 
 pause
 exit
