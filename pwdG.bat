@@ -22,7 +22,7 @@ if %input%==3 goto C if NOT goto Start2
 :A
 cls
 echo Your password is %random%
-echo Now choose what  you want to do.
+echo Now choose what you want to do.
 echo 1) Go back to the beginning
 echo 2) Exit
 set input=
@@ -32,5 +32,9 @@ if %input%==2 goto Exit if NOT goto Start 2
 :Exit
 exit
 :B
+cls
 echo Your 5 passwords are %random%, %random%, %random%, %random%, %random%.
-echo
+echo Now choose what you want to do.
+echo 1) Go back to the beginning
+echo 2) Exit
+set input= 
