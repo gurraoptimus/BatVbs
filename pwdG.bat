@@ -4,4 +4,5 @@ cls
 goto Start
 :Start
 title Password Generator
-echo
+echo I will make you a new Password.
+echo Plz wr
