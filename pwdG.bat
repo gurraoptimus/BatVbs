@@ -23,6 +23,8 @@ cls
 echo Your password is %random%
 echo Now choose what  you want to do.
 echo 1) Go back to the beginning
-echo 
+echo 2) Exit
+set input=
+set /
 pause
 exit
