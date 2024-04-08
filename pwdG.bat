@@ -18,5 +18,7 @@ set /p input= choice:
 if %input%==1 goto A if NOT goto Start2
 if %input%==2 goto B if NOT goto Start2
 if %input%==3 goto C if NOT goto Start2
+:A
+cls
 pause
 exit
