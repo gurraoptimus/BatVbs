@@ -39,7 +39,7 @@ echo 1) Go back to the beginning
 echo 2) Exit
 set input= 
 set /p input= Choice:
-if %input%==1
-if %input%==2
+if %input%==1 goto Start2 if NOT goto Start 2
+if %input%==2 goto Exit if NOT goto Start 2
 :C
 cls
