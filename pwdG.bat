@@ -43,3 +43,4 @@ if %input%==1 goto Start2 if NOT goto Start 2
 if %input%==2 goto Exit if NOT goto Start 2
 :C
 cls
+echo Your
