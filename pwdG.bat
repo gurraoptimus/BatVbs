@@ -38,3 +38,8 @@ echo Now choose what you want to do.
 echo 1) Go back to the beginning
 echo 2) Exit
 set input= 
+set /p input= Choice:
+if %input%==1
+if %input%==2
+:C
+cls
