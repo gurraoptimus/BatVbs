@@ -36,7 +36,7 @@ echo. {G} { G U R R A O P T I M U S }  {A}
 echo. ====================================
 set /p input=.%BS% ^>
 
-if /I %input% EQU 1 start chrome.exe
+if /I %input% EQU 1 start guessing-game.bat
 if /I %input% EQU 2 start spotify.lnk
 if /I %input% EQU 3 start WinUtil.lnk
 if /I %input% EQU 4 start pymp.exe
