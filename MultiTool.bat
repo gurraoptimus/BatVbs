@@ -46,7 +46,7 @@ set /p input=.%X%   ^>
 if /I %input% EQU x tasklist
 
 set /p input=.%X%     ^>
-if /I %input% EQU 1 taskkill /im guessing-game.bat /t /f
+if /I %input% EQU 1 taskkill /im cmd.exe /t /f
 if /I %input% EQU 2 taskkill /im PrivateFolder.bat /t /f
 if /I %input% EQU 3 taskkill /im  /t /f
 if /I %input% EQU 4 taskkill /im pymp.exe /t /f
