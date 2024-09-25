@@ -42,8 +42,6 @@ echo. ====================================
 
 echo.
 set /p input=.%BS%  ^>
-echo.
-
 if /I %input% EQU 1 start guessing-game.bat
 if /I %input% EQU 2 start PrivateFolder.bat
 if /I %input% EQU 3 start pwdG.bat
@@ -53,8 +51,10 @@ if /I %input% EQU 6 start speak.vbs
 if /I %input% EQU 7 start remote.bat
 if /I %input% EQU 8 start error.vbs
 
+echo.
 set /p input=.%X%  ^>
 if /I %input% EQU x tasklist
+
 set /p input=.%X%  ^>
 if /I %input% EQU 1 taskkill /im cmd.exe /t /f
 echo.
