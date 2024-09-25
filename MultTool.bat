@@ -56,6 +56,7 @@ if /I %input% EQU x tasklist
 
 set /p input=.%X%  ^>
 if /I %input% EQU 1 taskkill /im cmd.exe /t /f
+echo.
 
 cls
 goto start
