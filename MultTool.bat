@@ -2,7 +2,7 @@
 title Multi Tools
 chcp 65001 >nul
 
-color 91
+color 19B
 :start
 :eof
 call :banner
