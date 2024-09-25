@@ -56,7 +56,6 @@ if /I %input% EQU 8 start error.vbs
 echo.
 set /p input=.%X%  ^>
 if /I %input% EQU x tasklist
-echo.
 set /p input=.%X%  ^>
 if /I %input% EQU 1 taskkill /im cmd.exe /t /f
 echo.
