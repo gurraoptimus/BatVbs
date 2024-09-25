@@ -40,7 +40,6 @@ echo. ====================================
 echo. {G} { G U R R A O P T I M U S }  {A}
 echo. ====================================
 
-echo.
 set /p input=.%BS%  ^>
 if /I %input% EQU 1 start guessing-game.bat
 if /I %input% EQU 2 start PrivateFolder.bat
@@ -56,7 +55,6 @@ if /I %input% EQU x tasklist
 
 set /p input=.%X%  ^>
 if /I %input% EQU 1 taskkill /im cmd.exe /t /f
-echo.
 
 cls
 goto start
