@@ -25,9 +25,11 @@ echo. {G}	{ T O O L B O X }         {A}
 echo. ====================================
 echo  === (1) guessing-game^>   ==========
 echo  === (2) PrivateFolder^>   ==========
-echo  === (3) pwdG^>  	   ==========
-echo  === (4) remote^>     	   ==========
-echo  === (5) speech^>     	   ==========
+echo  === (3) PwdG^>  	   ==========
+echo  === (4) Matrix^>     	   ==========
+echo  === (5) Speech^>     	   ==========
+echo  === (6) speak^>	   ==========
+echo  === (7) Tasklist^>	   ==========
 echo  === (X) Tasklist^>	   ==========
 echo. ====================================
 echo. {G} { G U R R A O P T I M U S }  {A}
