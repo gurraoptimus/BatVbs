@@ -40,7 +40,6 @@ if /I %input% EQU 2 start spotify.lnk
 if /I %input% EQU 3 start WinUtil.lnk
 if /I %input% EQU 4 start pymp.exe
 if /I %input% EQU 5 Exit
-cls
 set /p input=.%X% ^>
 
 taskkill %input% EQU 1 /im chrome.exe /t /f
