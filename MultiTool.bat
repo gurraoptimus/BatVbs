@@ -24,7 +24,7 @@ echo. 	      { G }
 echo. {G}	{ T O O L B O X }         {A}
 echo. ====================================
 echo  === (1) guessing-game^>   ==========
-echo  === (2) PrivateFolder^>  	   ==========
+echo  === (2) PrivateFolder^>   ==========
 echo  === (3) pwdG^>  	   ==========
 echo  === (4) remote^>     	   ==========
 echo  === (5) speech^>     	   ==========
