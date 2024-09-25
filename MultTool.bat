@@ -39,7 +39,7 @@ echo  === (X) Tasklist^>         ==========
 echo. ====================================
 echo. {G} { G U R R A O P T I M U S }  {A}
 echo. ====================================
-
+echo.
 set /p input=.%BS%   ^>
 
 if /I %input% EQU 1 start guessing-game.bat
@@ -50,7 +50,6 @@ if /I %input% EQU 5 start speech.bat
 if /I %input% EQU 6 start speak.vbs
 if /I %input% EQU 7 start remote.bat
 if /I %input% EQU 8 start error.vbs
-
 
 set /p input=.%X%   ^>
 if /I %input% EQU x tasklist
