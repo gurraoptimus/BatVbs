@@ -29,7 +29,7 @@ echo. {G}	{ T O O L B O X }         {A}
 echo. ====================================
 echo  === (1) guessing-game^>    ==========
 echo  === (2) PrivateFolder^>    ==========
-echo  === (3) PwdG^>  	    ==========
+echo  === (3) PwdG^>             ==========
 echo  === (4) Matrix^>           ==========
 echo  === (5) Speech^>           ==========
 echo  === (6) speak^>            ==========
