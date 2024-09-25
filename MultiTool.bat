@@ -24,9 +24,9 @@ echo. 	      { G }
 echo. {G}	{ T O O L B O X }         {A}
 echo. ====================================
 echo  === (1) guessing-game^>   ==========
-echo  === (2) Spotify^>  	   ==========
-echo  === (3) WinUtil^>  	   ==========
-echo  === (4) PymP^>     	   ==========
+echo  === (2) PrivateFolder^>  	   ==========
+echo  === (3) pwdG^>  	   ==========
+echo  === (4) remote^>     	   ==========
 echo  === (5) Exit^>     	   ==========
 echo  === (X) Tasklist^>	   ==========
 echo. ====================================
@@ -37,8 +37,11 @@ set /p input=.%BS% ^>
 if /I %input% EQU 1 start guessing-game.bat
 if /I %input% EQU 2 start PrivateFolder.bat
 if /I %input% EQU 3 start pwdG.bat
-if /I %input% EQU 4 start pymp.exe
-if /I %input% EQU 5 Exit
+if /I %input% EQU 4 start matrix.bat
+if /I %input% EQU 5 start speech.bat
+if /I %input% EQU 6 start speak.vbs
+if /I %input% EQU 6 start
+
 
 set /p input=.%X%   ^>
 if /I %input% EQU x tasklist
