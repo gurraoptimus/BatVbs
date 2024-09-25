@@ -27,7 +27,7 @@ echo  === (1) guessing-game^>   ==========
 echo  === (2) PrivateFolder^>  	   ==========
 echo  === (3) pwdG^>  	   ==========
 echo  === (4) remote^>     	   ==========
-echo  === (5) Exit^>     	   ==========
+echo  === (5) speech^>     	   ==========
 echo  === (X) Tasklist^>	   ==========
 echo. ====================================
 echo. {G} { G U R R A O P T I M U S }  {A}
@@ -40,7 +40,7 @@ if /I %input% EQU 3 start pwdG.bat
 if /I %input% EQU 4 start matrix.bat
 if /I %input% EQU 5 start speech.bat
 if /I %input% EQU 6 start speak.vbs
-if /I %input% EQU 6 start
+if /I %input% EQU 7 start error.vbs
 
 
 set /p input=.%X%   ^>
