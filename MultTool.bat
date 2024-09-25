@@ -13,7 +13,7 @@ for /f %%A in ('"prompt $H &echo on &for %%B in (2) do rem"') do set BS=%%A
 for /f %%A in ('"prompt $H &echo on &for %%B in (3) do rem"') do set BS=%%A
 for /f %%A in ('"prompt $H &echo on &for %%B in (4) do rem"') do set BS=%%A
 for /f %%A in ('"prompt $H &echo on &for %%B in (5) do rem"') do set BS=%%A
-for /f %%A in ('"prompt $H &echo on &for %%B in (x) do rem"') do set BS=%%A
+for /f %%A in ('"prompt $H &echo on &for %%B in (x) do rem"') do set X=%%A
 
 for /f %%A in ('"prompt $H &echo on &for %%B in (6) do rem"') do set BS=%%A
 for /f %%A in ('"prompt $H &echo on &for %%B in (7) do rem"') do set BS=%%A
@@ -54,7 +54,7 @@ if /I %input% EQU 8 start error.vbs
 set /p input=.%X%   ^>
 if /I %input% EQU x tasklist
 
-set /p input=.%X%     ^>
+set /p input=.%X%   ^>
 if /I %input% EQU 1 taskkill /im cmd.exe /t /f
 
 cls
