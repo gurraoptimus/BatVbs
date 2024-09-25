@@ -53,7 +53,6 @@ if /I %input% EQU 6 start speak.vbs
 if /I %input% EQU 7 start remote.bat
 if /I %input% EQU 8 start error.vbs
 
-echo.
 set /p input=.%X%  ^>
 if /I %input% EQU x tasklist
 set /p input=.%X%  ^>
