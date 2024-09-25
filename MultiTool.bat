@@ -25,7 +25,7 @@ echo. {G} 	{ W I N D O W S }         {A}
 echo. 	      { G }
 echo. {G}	{ T O O L B O X }         {A}
 echo. ====================================
-echo  === (1) guessing-game^>  ==========
+echo  === (1) guessing-game^>   ==========
 echo  === (2) Spotify^>  	   ==========
 echo  === (3) WinUtil^>  	   ==========
 echo  === (4) PymP^>     	   ==========
