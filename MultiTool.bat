@@ -42,11 +42,8 @@ if /I %input% EQU 3 start WinUtil.lnk
 if /I %input% EQU 4 start pymp.exe
 if /I %input% EQU 5 Exit
 
-
 set /p input=.%X%   ^>
 if /I %input% EQU x tasklist
-
-
 
 set /p input=.%X%     ^>
 if /I %input% EQU 1 taskkill /im chrome.exe /t /f
