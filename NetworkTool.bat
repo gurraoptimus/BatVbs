@@ -24,6 +24,6 @@ echo  Speed:
 echo  ------
 echo  Ping: %ping%
 echo  Received: %rbytes%
-echo  Received: %sbytes%
+echo  Sent: %sbytes%
 
 goto loop
