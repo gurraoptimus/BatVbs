@@ -7,7 +7,7 @@ echo Loading Network information /
 cls
 echo Loading Network information -
 cls
-echo Loading Network information /
+echo Loading Network information \
 cls
 echo Loading Network information -
 cls
