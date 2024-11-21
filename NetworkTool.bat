@@ -1,19 +1,21 @@
 @echo off
 title Network States
-echo  Loading Network information -
-echo  Loading Network information \
+echo  Loading Network information ^-
+echo  Loading Network information ^\
 echo  Loading Network information ^|
-echo  Loading Network information -
+echo  Loading Network information ^-
 echo  Loading Network information ^|
-echo  Loading Network information /
+echo  Loading Network information ^-
+echo  Loading Network information ^/
 echo  Loading Network information ^|
-echo  Loading Network information -
-echo  Loading Network information \
+echo  Loading Network information ^-
+echo  Loading Network information ^\
+echo  Loading Network information ^-
 echo  Loading Network information ^|
-echo  Loading Network information -
+echo  Loading Network information ^-
+echo  Loading Network information ^/
 echo  Loading Network information ^|
-echo  Loading Network information /
-echo  Loading Network information -
+echo  Loading Network information ^-
 cls
 timeout /t 10 >nul
 :loop
