@@ -1,4 +1,3 @@
 @echo off
 :loop
-:end
-goto end
+for /f "tokens=2 delims=:" %%a in ('')
