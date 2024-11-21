@@ -25,7 +25,7 @@ echo.
 echo  Speed:
 echo  ------
 echo  Ping: %ping%
-echo Packet Loss %ploss%
+echo  Packet Loss %ploss%
 echo  Received: %rbytes% Bytes
 echo  Sent: %sbytes% Bytes
 
