@@ -6,9 +6,8 @@ echo.
 echo..
 echo...
 echo....
-cls
 echo......
-
+cls
 timeout /t 10 >nul
 for /f "tokens=2 delims=:" %%a in ('netsh wlan show interface ^| find "SSID" ^| findstr /v "BSSID"') do set ssid=%%a
 for /f "tokens=2 delims=:" %%a in ('netsh wlan show interface ^| find "Descripton"') do set adapter=%%a
