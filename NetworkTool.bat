@@ -1,5 +1,8 @@
 @echo off
 title Network States
+:loop
+echo Loading Network information.
+echo Loading Network information..
 echo Loading Network information...
 :loop
 timeout /t 10 >nul
