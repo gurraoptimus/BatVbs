@@ -8,7 +8,7 @@ for /f "tokens=2 delims=:" %%a in ('netsh wlan show interface ^| find "SSID" ^| 
 for /f "tokens=2 delims=:" %%a in ('netsh wlan show interface ^| find "Description"') do set adapter=%%a
 for /f "tokens=2 delims=:" %%a in ('netsh wlan show interface ^| find "State"') do set state=%%a
 for /f "tokens=2 delims=:" %%a in ('netsh wlan show interface ^| find "Signal"') do set signal=%%a
-ping -n 1 8.8.8.8>%temp%\ping.txt
+ping -n 30 8.8.8.8>%temp%\ping.txt
 for /f "tokens=4 delims==" %%a in ('type %temp%\ping.txt ^| find "Average"') do set ping=%%a
 for /f "tokens=4 delims==" %%a in ('type %temp%\ping.txt ^| find "Lost"') do set ploss=%%a
 for /f "tokens=2 delims= " %%a in ('netstat -e ^| find "Bytes"') do set rbytes=%%a
