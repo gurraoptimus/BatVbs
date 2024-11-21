@@ -14,6 +14,7 @@ for /f "tokens=4 delims==" %%a in ('type %temp%\ping.txt ^| find "Lost"') do set
 for /f "tokens=2 delims= " %%a in ('netstat -e ^| find "Bytes"') do set rbytes=%%a
 for /f "tokens=3 delims= " %%a in ('netstat -e ^| find "Bytes"') do set sbytes=%%a
 cls
+echo Network information...
 echo.
 echo  Network:
 echo  --------
