@@ -19,4 +19,3 @@ echo Speed:
 echo ------
 
 goto loop
-pause
