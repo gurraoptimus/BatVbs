@@ -1,7 +1,6 @@
 @echo off
 mode 50,20
 title Network States
-echo logotype> {G}
 echo  Loading Network information...
 timeout /t 5 >nul
 :loop
