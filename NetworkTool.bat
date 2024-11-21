@@ -19,6 +19,6 @@ echo  Signal: %signal%
 echo.
 echo  Speed:
 echo  ------
-echo  %ping%
+echo  Ping: %ping%
 
 goto loop
