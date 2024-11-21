@@ -5,7 +5,7 @@ echo  Loading Network information...
 timeout /t 5 >nul
 :loop
 for /f "tokens=2 delims=:" %%a in ('netsh wlan show interface ^| find "SSID" ^| findstr /v "BSSID"') do set ssid=%%a
-for /f "tokens=2 delims=:" %%a in ('netsh wlan show interface ^| find "BSSID"') do set bssid=%%a
+for /f "tokens=2 delims=:" %%a in ('netsh wlan show interface ^| find "BSSID" ^| findstr /v "ssid"') do set bssid=%%a
 for /f "tokens=2 delims=:" %%a in ('netsh wlan show interface ^| find "Description"') do set adapter=%%a
 for /f "tokens=2 delims=:" %%a in ('netsh wlan show interface ^| find "State"') do set state=%%a
 for /f "tokens=2 delims=:" %%a in ('netsh wlan show interface ^| find "Signal"') do set signal=%%a
