@@ -2,12 +2,19 @@
 title Network States
 
 echo Loading Network information \
+cls
 echo Loading Network information -
+cls
 echo Loading Network information /
+cls
 echo Loading Network information -
+cls
 echo Loading Network information \
+cls
 echo Loading Network information -
+cls
 echo Loading Network information /
+cls
 timeout /t 10 >nul
 :loop
 for /f "tokens=2 delims=:" %%a in ('netsh wlan show interface ^| find "SSID" ^| findstr /v "BSSID"') do set ssid=%%a
