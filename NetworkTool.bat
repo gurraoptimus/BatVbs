@@ -3,6 +3,7 @@ mode 60,20
 color 
 title Network States
 echo  Loading Network information...
+echo  Network co
 timeout /t 5 >nul
 :loop
 for /f "tokens=2 delims=:" %%a in ('netsh wlan show interface ^| find "SSID" ^| findstr /v "BSSID"') do set ssid=%%a
