@@ -21,5 +21,5 @@ echo  Speed:
 echo  ------
 echo  Ping: %ping%
 
-#goto loop
+goto loop
 pause
