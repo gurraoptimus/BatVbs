@@ -22,4 +22,3 @@ echo  ------
 echo  Ping: %ping%
 
 goto loop
-pause
