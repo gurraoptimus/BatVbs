@@ -1,7 +1,7 @@
 @echo off
 title Network States
 echo Loading Network information -
-cls
+:loop
 echo Loading Network information \
 cls
 echo Loading Network information -
