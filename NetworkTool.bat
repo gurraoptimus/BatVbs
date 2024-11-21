@@ -1,1 +1,2 @@
-# NetworkTool.bat
+@echo off
+:loop
