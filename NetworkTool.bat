@@ -1,23 +1,7 @@
 @echo off
 title Network States
-echo  Loading Network information ^-
-echo  Loading Network information ^\
-echo  Loading Network information ^|
-echo  Loading Network information ^-
-echo  Loading Network information ^|
-echo  Loading Network information ^-
-echo  Loading Network information ^/
-echo  Loading Network information ^|
-echo  Loading Network information ^-
-echo  Loading Network information ^\
-echo  Loading Network information ^-
-echo  Loading Network information ^|
-echo  Loading Network information ^-
-echo  Loading Network information ^/
-echo  Loading Network information ^|
-echo  Loading Network information ^-
-cls
-timeout /t 10 >nul
+echo  Loading Network information...
+timeout /t 1 >nul
 :loop
 for /f "tokens=2 delims=:" %%a in ('netsh wlan show interface ^| find "SSID" ^| findstr /v "BSSID"') do set ssid=%%a
 for /f "tokens=2 delims=:" %%a in ('netsh wlan show interface ^| find "Descripton"') do set adapter=%%a
@@ -38,4 +22,3 @@ echo  ------
 echo  Ping: %ping%
 
 goto loop
-pause
