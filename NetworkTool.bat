@@ -4,15 +4,25 @@ echo Loading Network information -
 :loop
 echo Loading Network information \
 cls
+echo Loading Network information ^|
+cls
 echo Loading Network information -
 cls
+echo Loading Network information ^|
+cls
 echo Loading Network information /
+cls
+echo Loading Network information ^|
 cls
 echo Loading Network information -
 cls
 echo Loading Network information \
 cls
+echo Loading Network information ^|
+cls
 echo Loading Network information -
+cls
+echo Loading Network information ^|
 cls
 echo Loading Network information /
 
