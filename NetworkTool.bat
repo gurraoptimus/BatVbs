@@ -21,8 +21,8 @@ echo.
 echo  --------
 echo  Network:
 echo  --------
-echo  SSID: %ssid%
-echo  NIC:  %adapter%
+echo  SSID:  %ssid%
+echo  NIC:   %adapter%
 echo  State: %state%
 echo  Signal: %signal%
 echo. 
