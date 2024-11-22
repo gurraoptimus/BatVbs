@@ -1,11 +1,9 @@
 @echo off
-mode 60,20
-color
+mode 40,20
 title Network States
-timeout /t 5 >nul
 echo  Loading Network information...
-timeout /t 4 >nul
-echo  Network connection...
+timeout /t 5 >nul
+echo connected Network...
 :loop
 for /f "tokens=2 delims=:" %%a in ('netsh wlan show interface ^| find "SSID" ^| findstr /v "BSSID"') do set ssid=%%a
 for /f "tokens=2 delims=:" %%a in ('netsh wlan show interface ^| find "Description"') do set adapter=%%a
@@ -17,7 +15,6 @@ for /f "tokens=4 delims==" %%a in ('type %temp%\ping.txt ^| find "Lost"') do set
 for /f "tokens=2 delims= " %%a in ('netstat -e ^| find "Bytes"') do set rbytes=%%a
 for /f "tokens=3 delims= " %%a in ('netstat -e ^| find "Bytes"') do set sbytes=%%a
 cls
-echo  Network information...
 echo.
 echo  Network:
 echo  --------
