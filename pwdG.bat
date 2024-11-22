@@ -1,4 +1,5 @@
 @echo off
+mode 60,20
 color 8f
 :Start2
 cls
