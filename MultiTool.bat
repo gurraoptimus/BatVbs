@@ -35,6 +35,7 @@ echo  === (5) Speech^>           ==========
 echo  === (6) speak^>            ==========
 echo  === (7) remote^>           ==========
 echo  === (8) error^>            ==========
+echo  === (9) NetworkTool^>      ==========
 echo  === (X) Tasklist^>         ==========
 echo. ====================================
 echo. {G} { G U R R A O P T I M U S }  {A}
@@ -49,6 +50,7 @@ if /I %input% EQU 5 start speech.bat
 if /I %input% EQU 6 start speak.vbs
 if /I %input% EQU 7 start remote.bat
 if /I %input% EQU 8 start error.vbs
+if /I %input% EQU 9 start NetworkTool.bat
 
 if /I %input% EQU x tasklist
 set /p input=.%X% ^>
