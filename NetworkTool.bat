@@ -2,7 +2,7 @@
 mode 60,20
 title Network States
 echo  Loading Network information...
-timeout /t 1 >nul
+timeout /t 3 >nul
 cls
 timeout /t 5 >nul
 echo  connected Network...
