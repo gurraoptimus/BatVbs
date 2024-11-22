@@ -1,11 +1,11 @@
 @echo off
 mode 60,20
 title Network States
-timeout /t 3 >nul
+timeout /t 2 >nul
 echo  Loading Network information...
 cls
-echo  connected Network...
 timeout /t 4 >nul
+echo  connected Network...
 :loop
 for /f "tokens=2 delims=:" %%a in ('netsh wlan show interface ^| find "SSID" ^| findstr /v "BSSID"') do set ssid=%%a
 for /f "tokens=2 delims=:" %%a in ('netsh wlan show interface ^| find "Description"') do set adapter=%%a
