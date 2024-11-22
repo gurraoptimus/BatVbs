@@ -51,7 +51,7 @@ if /I %input% EQU 5 start speech.bat
 if /I %input% EQU 6 start speak.vbs
 if /I %input% EQU 7 start remote.bat
 if /I %input% EQU 8 start error.vbs
-if /I %input% EQU 9 start NetworkTool.bat
+if /I %input% EQU 9 start error.vbs
 
 if /I %input% EQU x tasklist
 set /p input=.%X% ^>
