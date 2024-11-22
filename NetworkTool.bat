@@ -4,9 +4,9 @@ color
 title Network States
 cls
 echo  Loading Network information...
-cls
-echo  Network co
 timeout /t 5 >nul
+echo  Network co
+timeout /t 1 >nul
 :loop
 for /f "tokens=2 delims=:" %%a in ('netsh wlan show interface ^| find "SSID" ^| findstr /v "BSSID"') do set ssid=%%a
 for /f "tokens=2 delims=:" %%a in ('netsh wlan show interface ^| find "Description"') do set adapter=%%a
