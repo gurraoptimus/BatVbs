@@ -4,7 +4,6 @@ chcp 65001 >nul
 
 color 19
 :start
-:eof
 :exit
 call :banner
 
