@@ -5,6 +5,7 @@ chcp 65001 >nul
 color 19
 :start
 :eof
+:exit
 call :banner
 
 :menu
@@ -59,7 +60,6 @@ if /I %input% EQU 1 taskkill /im cmd.exe /t /f
 
 cls
 goto start
-goto eof
 goto exit
 :banner
 echo.
@@ -71,4 +71,3 @@ echo		  \ \_\ \ \_\  \ \_____\  \ \_____\    \ \_\  \ \_\       \ \_\  \ \_____\
 echo		   \/_/  \/_/   \/_____/   \/_____/     \/_/   \/_/        \/_/   \/_____/   \/_____/   \/_____/   \/_____/ 
 echo.
 echo.
-:exit
