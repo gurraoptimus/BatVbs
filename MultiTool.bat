@@ -18,6 +18,7 @@ for /f %%A in ('"prompt $H &echo on &for %%B in (x) do rem"') do set X=%%A
 for /f %%A in ('"prompt $H &echo on &for %%B in (6) do rem"') do set BS=%%A
 for /f %%A in ('"prompt $H &echo on &for %%B in (7) do rem"') do set BS=%%A
 for /f %%A in ('"prompt $H &echo on &for %%B in (8) do rem"') do set BS=%%A
+for /f %%A in ('"prompt $H &echo on &for %%B in (9) do rem"') do set BS=%%A
 
 for /f %%A in ('"prompt $H &echo on &for %%B in (1) do rem"') do set X=%%A
 
