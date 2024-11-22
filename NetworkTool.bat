@@ -1,7 +1,6 @@
 @echo off
 mode 60,20
 title Network States
-start Networktool.bat
 timeout /t 3 >nul
 echo  Loading Network information...
 cls
