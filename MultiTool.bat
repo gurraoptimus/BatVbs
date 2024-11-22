@@ -56,7 +56,7 @@ if /I %input% EQU 9 start networktool.bat
 
 if /I %input% EQU x tasklist
 set /p input=.%X% ^>
-if /I %input% EQU 1 taskkill /im cmd.exe /t /f
+if /I %input% EQU 0 taskkill /im cmd.exe /t /f
 
 cls
 goto start
