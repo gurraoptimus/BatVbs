@@ -4,7 +4,7 @@ title Network States
 echo  Loading Network information...
 timeout /t 3 >nul
 cls
-timeout /t 5 >nul
+timeout /t 3 >nul
 echo  connected Network...
 :loop
 for /f "tokens=2 delims=:" %%a in ('netsh wlan show interface ^| find "SSID" ^| findstr /v "BSSID"') do set ssid=%%a
