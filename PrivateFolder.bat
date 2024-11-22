@@ -1,5 +1,6 @@
 Quote:
-Quote: cls
+Quote: 
+cls
 @ECHO OFF
 title Folder Private
 if EXIST "Control Panel.{21EC2020-3AEA-A2DD-08002B30309D}" goto UNLOCK
