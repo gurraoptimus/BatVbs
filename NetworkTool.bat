@@ -1,6 +1,6 @@
 @echo off
 mode 60,20
-color 21
+color 13
 title Network States
 echo  Loading Network information...
 timeout /t 3 >nul
