@@ -4,6 +4,7 @@ color
 title Network States
 cls
 echo  Loading Network information...
+cls
 echo  Network co
 timeout /t 5 >nul
 :loop
