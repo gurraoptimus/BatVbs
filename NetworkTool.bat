@@ -1,5 +1,5 @@
 @echo off
-mode 40,20
+mode 60,20
 title Network States
 echo  Loading Network information...
 timeout /t 5 >nul
