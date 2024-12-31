@@ -22,7 +22,7 @@ for /f %%A in ('"prompt $H &echo on &for %%B in (8) do rem"') do set BS=%%A
 for /f %%A in ('"prompt $H &echo on &for %%B in (9) do rem"') do set BS=%%A
 
 for /f %%A in ('"prompt $H &echo on &for %%B in (0) do rem"') do set X=%%A
-
+for /f %%A in ('"prompt $H &echo on &for %%B in (B) do rem"') do set BS=%%A
 
 echo. ====================================
 echo. {G} 	{ W I N D O W S }         {A}
@@ -38,6 +38,7 @@ echo  === (6) speak^>            ==========
 echo  === (7) remote^>           ==========
 echo  === (8) error^>            ==========
 echo  === (9) NetworkTool^>      ==========
+echo  === (B) ByPassApp^>        ==========
 echo  === (X) Tasklist^>         ==========
 echo. ====================================
 echo. {G} { G U R R A O P T I M U S }  {A}
@@ -53,6 +54,7 @@ if /I %input% EQU 6 start speak.vbs
 if /I %input% EQU 7 start remote.bat
 if /I %input% EQU 8 start error.vbs
 if /I %input% EQU 9 start NetworkTool.bat
+if /I %input% EQU B start bypass-app.bat
 
 if /I %input% EQU x tasklist
 set /p input=.%X% ^>
