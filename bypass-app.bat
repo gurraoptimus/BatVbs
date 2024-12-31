@@ -1,2 +1,2 @@
 set __COMPAT_LAYER=RunAsInvoker
-start application.exe
+start C:\Users\User\Downloads\application.exe
