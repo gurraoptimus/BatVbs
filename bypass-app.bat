@@ -8,7 +8,7 @@ echo Setting compatibility layer to RunAsInvoker...
 set __COMPAT_LAYER=RunAsInvoker
 
 :: Ask for the path to the executable
-set /p exe_path="Enter the full path to the executable (e.g., C:\Path\To\File.exe): "
+set /p exe_path="Enter the full path to the executable (e.g., C:\Users\User\Downloads\application.exe): "
 
 :: Check if the file exists
 if not exist "%exe_path%" (
